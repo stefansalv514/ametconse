@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'FjallaOne';
+  src: url("../css/converted-files/FjallaOne.eot");
+  src: url("../css/converted-files/FjallaOne.woff2") format('woff2'),
+       url("../css/converted-files/FjallaOne.woff") format('woff'),
+       url("../css/converted-files/FjallaOne.ttf") format('truetype'),
+       url("../css/converted-files/FjallaOne.svg#FjallaOne") format('svg'),
+       url("../css/converted-files/FjallaOne.eot?#iefix") format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+

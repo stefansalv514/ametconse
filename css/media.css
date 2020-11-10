@@ -1,0 +1,220 @@
+@media screen and (max-width : 1199px) {
+    .header-search input {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width : 1050px) {
+    .header-logo {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width : 993px) {
+    .header-logo {
+        margin-left: 0;
+    }
+    
+    .slick-text__first {
+        font-size: 2.8rem;
+    }
+    
+    .slick-text__second {
+        font-size: 1.3rem;
+    }
+    
+    .merit__trird {
+        margin-top: 50px;
+        text-align: center;
+    }
+    
+    .full-form {
+        margin-top: 70px;
+        width: 50%;
+        margin-left: 200px;
+    }
+    
+    .last-menu {
+        text-align: center;
+    }
+    
+    .last-menu_second {
+        margin-top: 70px;
+    }
+    
+    .footer-text {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width : 800px) {
+    .header-logo {
+        margin-left: 50px;
+    }
+}
+
+@media screen and (max-width : 767px) {
+    .header-logo {
+        display: none;
+    }
+    
+    .slick-text__first {
+        font-size: 2.7rem;
+    }
+    
+    .slick-text__second {
+        font-size: 1rem;
+    }
+    
+    .merit-h {
+        margin-left: 100px;
+    }
+    
+    .merit__text {
+        text-align: center;
+        width: 65%;
+        margin-left: 85px;
+    }
+    
+    .merit__btn-div {
+        text-align: center;
+    }
+    
+    .merit_second {
+        margin-top: 50px;
+    }
+    
+    .merit__trird {
+        text-align: left;
+    }
+    
+    .full-form {
+        margin-left: 150px;
+    }
+}
+
+@media screen and (max-width : 530px) {
+    .slick-text__first {
+        font-size: 2.5rem;
+    }
+    
+     .slick-text__second {
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width : 480px) {
+    .full-form {
+        margin-left: 90px;
+        width: 70%;
+    }
+}
+
+@media screen and (max-width : 470px) {
+    .girls {
+        display: block;
+    }
+    
+    .girls__img {
+        text-align: center;
+    }
+    
+    .girls__info {
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width : 450px) {
+    .slick-text__first {
+        font-size: 2.3rem;
+    }
+    
+    .slick-text__second {
+        font-size: 0.6rem;
+    }
+    
+    .slick-text__trird {
+        font-size: 0.5rem;
+    }
+    
+    .design-list__text {
+        font-size: 1rem;
+    }
+    
+    .merit-h {
+        margin-left: 70px;
+    }
+    
+    .social__facebook {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 420px) {
+    .merit-h {
+        margin-left: 50px;
+    }
+    
+    .full-form {
+        margin-left: 65px;
+    }
+}
+
+@media screen and (max-width : 410px) {
+    .design-list__text {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    .social__linkedin {
+        display: none;
+    }
+    
+    .nav-menu {
+        display: none;
+    }
+}
+
+@media screen and (max-width : 380px) {
+    .merit-h {
+        margin-left: 30px;
+    }
+    
+    .merit__text {
+        margin-left: 65px;
+    }
+}
+
+@media screen and (max-width : 360px) {
+    .social__twitter {
+        display: none;
+    }
+    
+    .merit-explanation {
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (max-width : 340px) {
+    .merit-h {
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width : 330px) {
+    .slick-text__first {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width : 320px) {
+    .merit-h {
+        margin-left: 7px;
+    }
+    
+    .full-form {
+        margin-left: 50px;
+    }
+}

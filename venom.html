@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+    <!--other-->
+    <link rel="stylesheet" href="js/slick-1.8.0/slick/slick.css">
+    <link rel="stylesheet" href="js/slick-1.8.0/slick/slick-theme.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-beta-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="bootstrap-4.0.0-beta-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="write/fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+  </head>
+  <body>
+   
+  <!--header-->
+   <header class="main-page-header header">
+      
+       <div class="main-heading">
+           <div class="container">
+              
+               <div class="row">
+                  
+                   <div class="col-lg-2 col-sm-3 col-4">
+                       <a href="#">
+                           <img class="img-fluid" src="img/logo.png" alt="Compass">
+                       </a>
+                   </div>
+                   
+                   <div class="col-lg-7 align-items-center d-none d-lg-flex">
+                       <nav>
+                           <ul class="main-menu d-flex">
+                               <li class="main-menu__item d-lg-none d-xl-block">
+                                   <a class="ls-100" href="#">Главная</a>
+                               </li>
+                               <li class="main-menu__item">
+                                   <a class="ls-100"  href="#">
+                                   О компании</a>
+                               </li>
+                               <li class="main-menu__item d-lg-none d-xl-block">
+                                   <a class="ls-100"  href="#">
+                                   ВНЖ и ПМЖ в Болгарии</a>
+                               </li>
+                               <li class="main-menu__item">
+                                   <a class="ls-100"  href="#">
+                                   Недвижимость и переезд</a>
+                               </li>
+                               <li class="main-menu__item">
+                                   <a class="ls-100"  href="#">Контакты</a>
+                               </li>
+                           </ul>
+                       </nav>
+                   </div>
+                   
+                   <div class="col-lg-3 col-sm-6 d-none align-items-center d-sm-flex ml-sm-auto ml-lg-0">
+                       <div class="phones ml-auto">
+                          <!--modal-window-->
+                   <a href="#" class="popup" id="go">
+                       <img src="img/header-phone.png" alt="">
+                   </a>
+                   
+                 
+                          <span class="phones__item d-block">
+                              +7 (495) 12-321-345
+                          </span>
+                          <span class="phones__item d-block">
+                              +7 (495) 12-321-345
+                          </span>
+                       </div>
+                   </div>
+                   
+                   
+                   <div class="col-2 ml-auto ml-sm-0 d-flex d-lg-none align-items-center">
+                     
+                       <i id="hamburger" class="fa fa-bars fa-2x burger" aria-hidden="true">
+                       </i>    
+                                   
+                   </div>
+                
+                   
+                    <!--modal-window-form-->
+                     <div id="modal_form"><!-- Сaмo oкнo --> 
+                     <span id="modal_close">X</span> <!-- Кнoпкa зaкрыть --> 
+                         <form action="success.php" class="form-popup js-form" id="popupResult">
+                             <input type="text" name="name" required="" placeholder="Имя" class="form-control">
+                             <input type="text" name="tel" required="" placeholder="Телефон" class="form-control">
+                             <button class="form-popup__button" data-submit>
+                                 Отправить
+                             </button>
+                         </form>
+                   </div>
+                   <div id="phone-overlay"></div><!-- Пoдлoжкa -->
+                   
+               </div>
+               
+           </div>
+       </div>
+       <div class="main-page-offer offer">
+           <div class="container">
+               <h1 class="main-title">
+                   <span class="main-title__item main-title__item_big">
+                       Болгария
+                   </span> 
+                   <span class="main-title__item main-title__item_small">
+                       ждет вас
+                   </span> 
+               </h1>
+           </div>
+       </div>
+       
+       <a href="javascript://0" onclick="slowScroll ('#advantages')" class="main-page-arrow scroll-arrow">
+           <img class="sparrow" src="img/arrow-down.png" alt="">
+       </a>
+       
+   </header>
+ 
+   <section id="advantages" class="advantages">
+       <div class="container">
+          
+           <div class="row">
+              <div class="col-12">
+                  <h2 class="advantages__title">Наши преимущества</h2>
+              </div>
+           </div>
+           
+           <div class="row">
+               <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                   <div class="merit">
+                       <div class="merit__img merit__img_confidence"></div>
+                       <div class="merit__title title">
+                           Надежность
+                       </div>
+                       <p class="merit__text">
+                           Мы всегда придем к вам на помощь в решении самых неоднозначных вопросов
+                       </p>
+                   </div>
+               </div>
+               <div class="col-lg-4 col-md-6 col-sm-6 d-flex">
+                   <div class="merit">
+                       <div class="merit__img merit__img_true"></div>
+                       <div class="merit__title title">
+                           Достоверность
+                       </div>
+                       <p class="merit__text merit__text_true">
+                           Достоверность - главный принцип нашей работы. Мы знаем все тонкости переезда в Болгарию и оформления соответствующих документов
+                       </p>
+                   </div>
+               </div>
+               <div class="col-lg-4 col d-flex">
+                   <div class="merit">
+                       <div class="merit__img merit__img_smart"></div>
+                       <div class="merit__title title">
+                           Компетентность
+                       </div>
+                       <p class="merit__text merit__text_smart">
+                           Наши специалисты с большим опытом работы помогут разобраться во всех юридических тонкостях переезда на ПМЖ в Болгарию
+                       </p>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   
+   <!--trird-section-->
+   <section id="trird-section" class="trird-section">
+       <div class="container">
+           <div class="row justify-content-center">
+               <div class="col-12 col-md-12">
+                   <h2 class="bulga-moving">
+                       Переезд в Болгарию
+                   </h2>
+                   <p class="bulga-text">
+                       <span class="bulga-text__first">
+                           «Если Вам не нравится то место, где вы находитесь -
+                       </span> 
+                       <span class="bulga-text">
+                           смените его, Вы же не дерево» 
+                       </span>
+                       <span class="bulga-text__author">
+                           Джим Рон
+                       </span>
+                   </p>
+               </div>
+           </div>
+           <div class="row justify-content-center">
+               <div class="col-12 col-md-12">
+                    <div class="rectangle">
+                       <img src="img/second-down.png" alt="" class="down__top">
+                       <p class="rectangle__text">
+                          <span class="rectangle__text-first">
+                          Пришло время и перед Вами стоит вопрос
+                          </span><br>
+                          <span class="rectangle__text-second">
+                          Как переехать в Болгарию на ВНЖ или ПМЖ?
+                          </span>
+                        </p>
+                        <img src="img/second-down.png" alt="" class="down__lower">
+                     </div>
+                 </div>
+            </div>
+            <div class="row justify-content-center">
+                 <div class="col-12 col-md-12">
+                    <h2 class="bulga-answer">
+                       Мы знаем ответ
+                    </h2>
+                    <p class="bulga-var">
+                     Подберем для Вас оптимальный вариант и предложим лучшие условия!
+                    </p>
+                    <div class="bulga__btn">
+                       <a href="#">Узнать больше</a>
+                    </div>
+                </div>
+           </div>
+       </div>
+   </section>
+   
+   <!--fourth-section-->
+   <section id="fourth-section" class="fourth-section">
+       <div class="container">
+          <div class="row">
+           <div class="col-md-12">
+               <h2 class="real-estate-title">
+                   Недвижимость и транспортные услуги
+               </h2>
+               <div class="big-block big-block_first">
+                   <img src="img/sea.png" alt="" class="sea">
+                   <img src="img/not-circle.png" alt="" class="not-circle">
+                   <h3 class="estate__dream">
+                       Мечтаете о доме на Солнечном берегу?
+                   </h3>
+                   <p class="estate__text">
+                       Или хотите выгодно инвестировать в  заграничную недвижимость? В любом случае - подходящий вариант уже ждет Вас! Большой выбор объектов жилой и коммерческой недвижимости и профессиональный сервис позволит провести сделку с<br> удовольствием и получить нужный результат
+                   </p>
+                   <img src="img/eclips.png" alt="" class="eclips">
+               </div>
+               <div class="big-block big-block_second">
+                   <p class="big-block__text">
+                       Если Ваши чемоданы уже собраны и Вы готовы к переезду, рады предложить Вам транспортные услуги по перевозке личный вещей в Болгарию. Для успешного размещения на новом месте жительства мы поможем перевести Ваши вещи в сохранности
+                   </p>
+               </div>
+               <div class="estate__btn">
+                   <a href="#">Узнать больше</a>
+               </div>
+           </div>
+         </div>
+       </div>
+   </section>
+   
+   <!--fifth-section-->
+   <section id="fifth-section" class="fifth-section">
+       <div class="container">
+           <div class="row">
+               <div class="col-md-12 col-12">
+                   <h2 class="reviews__title">
+                       Отзывы наших клиентов
+                   </h2>
+               </div>
+           </div>   
+           
+            <div class="row justify-content-center align-items-center">
+              <div class="col-12 col-md-12 col-sm-12">
+                   
+                  <!--<i class="fa fa-chevron-left fa-lg slick-left" aria-hidden="true"></i>  -->
+                    
+                 <div class="slick-apasova">
+                       <div class="box-name">
+                           <div class="box__diana"></div>
+                           <div class="box-text">
+                               <div class="girl-name">
+                                   <h4 class="apasova">
+                                       Диана Апасова
+                                   </h4>
+                                    <a href="#"     class="apasova__vk">
+                                        vk.com/apasova
+                                    </a>
+                                    <p class="apasova__city">
+                                        Москва → София
+                                    </p>
+                               </div>
+                               <p class="apasova__text">
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                               </p>
+                           </div>
+                       </div>
+                       <div class="box-name">
+                           <div class="box__diana"></div>
+                           <div class="box-text">
+                               <div class="girl-name">
+                                   <h4 class="apasova">
+                                       Диана Апасова
+                                   </h4>
+                                    <a href="#"     class="apasova__vk">
+                                        vk.com/apasova
+                                    </a>
+                                    <p class="apasova__city">
+                                        Москва → София
+                                    </p>
+                               </div>
+                               <p class="apasova__text">
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                               </p>
+                           </div>
+                       </div>
+                       <div class="box-name">
+                           <div class="box__diana"></div>
+                           <div class="box-text">
+                               <div class="girl-name">
+                                   <h4 class="apasova">
+                                       Диана Апасова
+                                   </h4>
+                                    <a href="#"     class="apasova__vk">
+                                        vk.com/apasova
+                                    </a>
+                                    <p class="apasova__city">
+                                        Москва → София
+                                    </p>
+                               </div>
+                               <p class="apasova__text">
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+                               </p>
+                           </div>
+                       </div>
+                  </div>
+                   
+                <!--<i class="fa fa-chevron-right fa-lg slick-right" aria-hidden="true"></i>-->
+              </div>
+           </div> 
+           
+              <!--<div class="row justify-content-center">
+               <div class="col-12 col-md-12 col-sm-12">  
+                   <ul class="round">
+                       <li><a href="#"></a></li>
+                       <li><a class="round__second" href="#"></a></li>
+                       <li><a href="#"></a></li>
+                   </ul>
+               </div>   
+           </div> -->
+            
+       </div>
+   </section>
+   
+   <!--sixth-section-->
+   <section id="sixth-section" class="sixth-section">
+       <div class="container">
+          
+           <div class="row justify-content-center">
+               <div class="col-12 col-md-8">
+                   <h2 class="contact__title">
+                       Есть вопросы<br> по переезду в болгарию?
+                   </h2>
+                   <p class="contact__text">
+                       Мы проконсультируем<br> Вас бесплатно!
+                   </p>
+               </div>
+           </div>
+           <div class="row">
+               <div class="col">
+                   <div class="contact__arrow">
+                       <i class="fa fa-angle-down fa-lg" aria-hidden="true">
+                       </i>
+                   </div>
+               </div>
+           </div>
+           <div class="row justify-content-center">
+               <div class="col-12 offset-sm-7 col-sm-10 col-md-8 col-lg-6">
+                  
+                   <form action="success.php"  class="form  js-form" id="popupResult">
+                       <input  type="text"  name="name" required="" placeholder="Имя" class="form-control">
+                       <input type="text" name="email" required="" placeholder="E-mail" class="form-control">
+                       <input type="text" name="tel" required=""  placeholder="Телефон" class="form-control">
+                       <button class="form__btn form__btn_post" data-submit>
+                           Заказать консультацию
+                       </button>
+                   </form>
+                <!--<div class="form__btn">
+                       <a href="#" class="form__btn_post" data-submit>
+                          Заказать консультацию
+                       </a>
+                    </div>-->
+                    
+                    <div id="overlay">
+		               <div id="thx">
+			              Спасибо! Мы обязательно вам перезвоним
+		               </div>
+   	                </div>
+                    
+               </div>
+           </div>
+           
+       </div>
+   </section>
+   
+   <!--footer-->
+   <footer id="footer" class="footer">
+       <div class="container">
+           <div class="row justify-content-between align-items-center">
+               <div class="col-4 col-sm-3 col-md-3">
+                   <img src="img/logo.png" alt="" class="footer-logo">
+               </div>
+               <div class="col-5 col-sm-3 col-md-2">
+                   <p class="footer__text">
+                       2016 / Все права защищены   
+                   </p>
+               </div>
+               <div class="col-sm-4 d-none d-sm-block col-md-3">
+                   <p class="footer__politics">
+                       Политика конфиденциальности
+                   </p>
+               </div>
+               <div class="d-none d-md-block col-md-4 d-sm-none">
+                   <div class="footer__phones ml-auto">
+                      <span class="phones__item d-block">
+                            +7 (495) 12-321-345
+                      </span>
+                      <span class="phones__item d-block">
+                            +7 (495) 12-321-345
+                      </span>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </footer>
+   
+   
+   
+              <!----------JQuery------------->
+              
+      <script src="https://code.jquery.com/jquery-latest.js"></script>
+      <!-- Подключен файл-валидатор, для проверки формы на заполненность  -->        
+     <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery.validate/1.14.0/jquery.validate.js"></script>
+     <!--jquery-3.2.1.min.js-->
+       
+     <!--slick.min.js-->
+     <script src="js/slick-1.8.0/slick/slick.min.js"></script>     
+     <!--bootstrap.min.js-->
+     <script src="bootstrap-4.0.0-beta-dist/js/bootstrap.min.js"></script>
+     <script src="bootstrap-4.0.0-beta-dist/js/bootstrap.js"></script>
+     <!--main.js-->
+     <script src="js/main.js"></script> 
+  </body>
+</html>

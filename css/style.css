@@ -1,0 +1,545 @@
+              /*-----Спецификация-----*/
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+section {
+    padding: 88px 0;
+}
+
+body {
+    background: #273242;
+}
+
+                 /*-----header-----*/
+
+.header {
+    background: #21af8d;
+    padding: 17px 0;
+}
+
+/*Логотип*/
+.header-logo {
+    font-family: FjallaOne, sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+.header-logo:hover {
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Социальные сети*/
+.social {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social a i {
+    border: 1px solid #038b73;
+    background: #038b73;
+    padding: 7px 7px;
+    border-radius: 5px;
+    color: #21af8d;
+}
+
+.social a {
+     padding: 5px 7px;
+}
+
+.social a:hover {
+    text-decoration: none;
+}
+
+/*Поиск*/
+
+.header-form {
+    
+}
+
+.header-search {
+    border: 1px solid #038b73;
+    background: #038b73;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.header-search input {
+    background: #038b73;
+    color: #fff;
+    border: 1px solid #038b73;
+}
+
+.header-search button {
+    background: #038b73;
+    color: #21af8d;
+    border: 1px solid #038b73;
+}
+
+
+
+
+
+                /*-----second-section-----*/
+
+.second-section {
+    padding: 0;
+    margin-top: 40px;
+}
+
+.container-menu {
+    background: #52647a;
+    width: 100%;
+}
+
+.nav-menu {
+    padding: 12px 0;
+}
+
+.main-menu {
+    justify-content: center;
+}
+
+.main-menu li a {
+    color: #fff;
+    font-family: FjallaOne, sans-serif;
+    text-transform: uppercase;
+    padding: 8px 10px;
+    border-radius: 3px;
+    font-size: 0.9rem;
+}
+
+.main-menu li a:hover {
+    text-decoration: none;
+    background: rgba(255,255,255,0.14);
+}
+
+
+
+
+            /*-----trird-section-----*/
+
+.trird-section {
+    padding: 0;
+   
+}
+
+.green-banner {
+  
+}
+
+.slick-text {
+    background: url("../img/banner.jpg") no-repeat center top / cover;
+    padding: 231px 0 60px;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: FjallaOne, sans-serif;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.slick-text_red {
+    background: url("../img/banner-red.jpg") no-repeat center top / cover;
+}
+
+.slick-text_blue {
+    background: url("../img/banner-blue.jpg") no-repeat center top / cover;
+}
+
+.slick-text__first {
+    font-size: 3rem;
+}
+
+.slick-text__second {
+    font-size: 1.5rem;
+    margin-top: -15px;
+}
+
+.slick-text__trird {
+    font-size: 0.8rem;
+    margin-top: -15px;
+}
+
+.button-box {
+     margin-top: 30px;
+}
+
+.slick-button {
+    color: #2fb695;
+    border: 1px solid #fff;
+    background: #fff;
+    padding: 8px 10px;
+    border-radius: 5px;
+    letter-spacing: 0;
+}
+
+.slick-button:hover {
+    text-decoration: none;
+    color: #fff;
+    background: rgb(89, 89, 155);
+}
+
+/*slick*/
+.slick-prev {
+    left: 15px;
+    z-index: 1001;
+}
+
+.slick-next {
+    right: 15px;
+    z-index: 1001;
+}
+
+
+
+
+
+
+                 /*-----fouth-section-----*/
+
+.fouth-section {
+    padding: 0;
+}
+
+.fouth-section-container {
+    background: #38475a;
+    width: 100%;
+    padding: 88px 0;
+}
+
+/*Верхний заголовок*/
+.design-list__title {
+    font-family: FjallaOne, sans-serif;
+    text-align: center;
+    color: #21af8d;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    letter-spacing: 0.02em;
+}
+
+.design-list__text {
+    color: #7c8b9e;
+    text-align: center;
+    font-family: FjallaOne, sans-serif;
+    font-size: 1.1rem;
+    letter-spacing: 0.05em;
+}
+
+.design-list__text:after {
+    content: '';
+    width: 58px;
+    display: block;
+    margin: 21px auto 10px;
+    height: 1px;
+    background: #7c8b9e;
+}
+
+/*designers*/
+.designers {
+    text-align: center;
+    margin-top: 38px;
+}
+
+.designers__name {
+    color: #85dbc2;
+    text-transform: uppercase;
+    font-family: FjallaOne, sans-serif;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.designers__text {
+    color: #7c8b9e;
+    font-family: Source Sans Pro, sans-serif;
+}
+
+
+
+
+                  /*-----fifth-section-----*/
+
+.fifth-section {
+    padding: 0;
+}
+
+.fifth-section-container {
+    background: #fff;
+    width: 100%;
+    padding: 88px 0;
+}
+
+/*merit*/
+.merit__main-title {
+ 
+}
+
+.merit-h {
+   display: flex;
+   justify-content: space-between;
+   width: 320px;
+}
+
+.merit-icon {
+    border: 1px solid #21af8d;
+    background: #21af8d;
+    color: #fff;
+    padding: 10px 10px;
+    border-radius: 7px;
+}
+
+.merit__row {
+    margin-left: 20px;
+}
+
+.merit__title {
+    text-transform: uppercase;
+    font-family: FjallaOne, sans-serif;
+    color: #465568;
+    font-size: 1.2rem;
+}
+
+.merit-explanation {
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 1.05rem;
+    color: #3bb495;
+}
+
+.merit__text {
+    font-family: Source Sans Pro, sans-serif;
+    color: #8d8c8c;
+    font-size: 0.9rem;
+    margin-top: 20px;
+}
+
+.merit__btn-div {
+    margin-top: 25px;
+}
+
+.merit__btn {
+    border: 1px solid #21af8d;
+    background: #21af8d;
+    color: #fff;
+    border-radius: 7px;
+    padding: 8px 10px;
+}
+
+.merit__btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.merit__btn-arrow {
+    
+}
+
+.merit-h_second {
+    width: 290px;
+}
+
+
+
+
+
+
+              /*-----sixth-section-----*/
+
+.sixth-section {
+    padding: 0;
+}
+
+.sixth-section-container {
+    background: #38475a;
+    width: 100%;
+    padding: 88px 0;
+}
+
+.girls {
+    display: flex;
+}
+
+.girls__img {
+    
+}
+
+.girls__info {
+/*    width: 430px;*/
+    margin-left: 30px;
+}
+
+.girls__name {
+    text-transform: uppercase;
+    font-family: FjallaOne, sans-serif;
+    color: #21af8d;
+    font-size: 1.3rem;
+}
+
+.girls__description {
+    font-family: Source Sans Pro, sans-serif;
+    color: #21af8d;
+    font-size: 1rem;
+}
+
+.girls__text {
+    font-family: Source Sans Pro, sans-serif;
+    color: #7c8b9e;
+    font-size: 0.9rem;
+}
+
+/*
+.girls__btn-div {
+   
+}
+*/
+
+.girls__btn-a {
+    border: 1px solid #21af8d;
+    background: #21af8d;
+    color: #fff;
+    border-radius: 7px;
+    padding: 8px 10px;
+    font-size: 0.7rem;
+}
+.girls__btn-a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.girls_second {
+    margin-top: 60px;
+}
+
+.girls__info_second {
+/*    width: 505px;*/
+}
+
+.br {
+    margin-top: 7px;
+}
+
+
+                        /*form*/
+
+.contact-pen {
+    color: #fff;
+    border: 1px solid #21af8d;
+    background: #21af8d;
+    padding: 9px;
+    border-radius: 7px;
+}
+
+.form-title {
+    display: flex;
+}
+
+.contact {
+    margin-left: 20px;
+}
+
+.contact__title {
+    color: #21af8d;
+    text-transform: uppercase;
+    font-family: FjallaOne, sans-serif;
+    font-size: 1.2rem;
+}
+
+.contact__subtitle {
+    font-family: Source Sans Pro, sans-serif;
+    color: #21af8d;
+    font-size: 1.1rem;
+}
+
+.form input {
+    color: #78879a;
+    border: 1px solid #415166;
+    background: #324052;
+    width: 95%;
+    padding: 7px 10px;
+    border-radius: 7px;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 1rem;
+    margin-top: 17px;
+}
+
+.form__message {
+    color: #78879a;
+    border: 1px solid #415166;
+    background: #324052;
+    border-radius: 7px;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 1rem;
+    padding: 7px 10px;
+    width: 95%;
+    margin-top: 20px;
+}
+
+.form__btn {
+    border: 1px solid #21af8d;
+    background: #21af8d;
+    color: #fff;
+    border-radius: 7px;
+    padding: 5px 10px;
+    font-family: FjallaOne, sans-serif;
+    font-size: 1rem;
+    margin-top: 16px;
+}
+
+
+
+
+
+               /*-----seventh-section-----*/
+
+.seventh-section {
+    margin-top: 41px;
+    background: #21af8d;
+}
+
+.last-menu__item {
+    margin-top: 10px;
+}
+
+.last-menu__list {
+    color: #fff;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 0.9rem;
+}
+
+.last-menu li a:hover {
+    color: darkgoldenrod;
+}
+
+.last-menu__title {
+    text-transform: uppercase;
+    font-family: FjallaOne, sans-serif;
+    font-size: 1.1rem;
+    color: #fff;
+}
+
+
+
+
+                    /*-----footer-----*/
+
+.footer {
+    padding: 40px 0;
+    background: #038b73;
+}
+
+.footer-text {
+    color: #fff;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 1rem;
+}
+
+.my-text {
+    text-align: center;
+    color: #fff;
+    font-family: Source Sans Pro, sans-serif;
+    font-size: 1rem;
+}
